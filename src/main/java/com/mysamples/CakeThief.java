@@ -65,6 +65,9 @@ class CakeType {
 }
 
 class InfinityException extends RuntimeException {
+	
+	private static final long serialVersionUID = 1L;
+
 	public InfinityException() {
 		super("Max Value is infinity!");
 	}
